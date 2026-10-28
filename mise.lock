@@ -4687,30 +4687,39 @@ backend = "aqua:aws/aws-cli"
 specifiers = ["2.37.12"]
 
 [tools.aws-cli."platforms.linux-arm64"]
+checksum = "sha256:829c76096e05f743267d75098bc7cc7cfae799fc7e568554ebaa6d78e6aba753"
 url = "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.12.zip"
 
 [tools.aws-cli."platforms.linux-arm64-musl"]
+checksum = "sha256:829c76096e05f743267d75098bc7cc7cfae799fc7e568554ebaa6d78e6aba753"
 url = "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.37.12.zip"
 
 [tools.aws-cli."platforms.linux-x64"]
+checksum = "sha256:e6d3c672fb36ed4b12c354c39a993eee2b34da1437cafb10bac4480840cfa83f"
 url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.12.zip"
 
 [tools.aws-cli."platforms.linux-x64-baseline"]
+checksum = "sha256:e6d3c672fb36ed4b12c354c39a993eee2b34da1437cafb10bac4480840cfa83f"
 url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.12.zip"
 
 [tools.aws-cli."platforms.linux-x64-musl"]
+checksum = "sha256:e6d3c672fb36ed4b12c354c39a993eee2b34da1437cafb10bac4480840cfa83f"
 url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.12.zip"
 
 [tools.aws-cli."platforms.linux-x64-musl-baseline"]
+checksum = "sha256:e6d3c672fb36ed4b12c354c39a993eee2b34da1437cafb10bac4480840cfa83f"
 url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.37.12.zip"
 
 [tools.aws-cli."platforms.macos-arm64"]
+checksum = "sha256:c2290ff2f067bb548088c9210dfbce088ec10095d809aacfa556a2cf9929de88"
 url = "https://awscli.amazonaws.com/AWSCLIV2-2.37.12.pkg"
 
 [tools.aws-cli."platforms.macos-x64"]
+checksum = "sha256:c2290ff2f067bb548088c9210dfbce088ec10095d809aacfa556a2cf9929de88"
 url = "https://awscli.amazonaws.com/AWSCLIV2-2.37.12.pkg"
 
 [tools.aws-cli."platforms.macos-x64-baseline"]
+checksum = "sha256:c2290ff2f067bb548088c9210dfbce088ec10095d809aacfa556a2cf9929de88"
 url = "https://awscli.amazonaws.com/AWSCLIV2-2.37.12.pkg"
 
 [[tools.biome]]
@@ -6036,36 +6045,47 @@ backend = "aqua:docker/cli"
 specifiers = ["29.9.0"]
 
 [tools.docker-cli."platforms.linux-arm64"]
+checksum = "sha256:811f6eee271678fc98dbe5c4d896c00fc5fe2daa4f7a37069c17abc036eab85b"
 url = "https://download.docker.com/linux/static/stable/aarch64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.linux-arm64-musl"]
+checksum = "sha256:811f6eee271678fc98dbe5c4d896c00fc5fe2daa4f7a37069c17abc036eab85b"
 url = "https://download.docker.com/linux/static/stable/aarch64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.linux-x64"]
+checksum = "sha256:33e1ab8b63d14bca449f7a3d30d7f6aa669daa544e60a86b17fec87f61afe2b4"
 url = "https://download.docker.com/linux/static/stable/x86_64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.linux-x64-baseline"]
+checksum = "sha256:33e1ab8b63d14bca449f7a3d30d7f6aa669daa544e60a86b17fec87f61afe2b4"
 url = "https://download.docker.com/linux/static/stable/x86_64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.linux-x64-musl"]
+checksum = "sha256:33e1ab8b63d14bca449f7a3d30d7f6aa669daa544e60a86b17fec87f61afe2b4"
 url = "https://download.docker.com/linux/static/stable/x86_64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.linux-x64-musl-baseline"]
+checksum = "sha256:33e1ab8b63d14bca449f7a3d30d7f6aa669daa544e60a86b17fec87f61afe2b4"
 url = "https://download.docker.com/linux/static/stable/x86_64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.macos-arm64"]
+checksum = "sha256:c640fd61d9ba801e0ea282fd0df344d6943efd1994c7454537707cdb7a3d3e0b"
 url = "https://download.docker.com/mac/static/stable/aarch64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.macos-x64"]
+checksum = "sha256:65a7885c563226dba96c31d1a7aa78ee098199dc1c1f111582673544c91ad8de"
 url = "https://download.docker.com/mac/static/stable/x86_64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.macos-x64-baseline"]
+checksum = "sha256:65a7885c563226dba96c31d1a7aa78ee098199dc1c1f111582673544c91ad8de"
 url = "https://download.docker.com/mac/static/stable/x86_64/docker-29.9.0.tgz"
 
 [tools.docker-cli."platforms.windows-x64"]
+checksum = "sha256:e3ff5d2e4cd1ad7e1c9bcb76f0df28a84853c43416a915323f08659d8487ad83"
 url = "https://download.docker.com/win/static/stable/x86_64/docker-29.9.0.zip"
 
 [tools.docker-cli."platforms.windows-x64-baseline"]
+checksum = "sha256:e3ff5d2e4cd1ad7e1c9bcb76f0df28a84853c43416a915323f08659d8487ad83"
 url = "https://download.docker.com/win/static/stable/x86_64/docker-29.9.0.zip"
 
 [[tools.doppler]]
@@ -6590,6 +6610,55 @@ checksum = "sha256:34061dd322daa014c03f1cc8bc253be40596835990a3017426bc2189a3fdd
 url = "https://github.com/lima-vm/lima/releases/download/v2.2.1/lima-2.2.1-Windows-AMD64.zip"
 url_api = "https://api.github.com/repos/lima-vm/lima/releases/assets/607822585"
 provenance = "github-attestations"
+
+[[tools.node]]
+version = "24.22.1"
+backend = "core:node"
+specifiers = ["24"]
+
+[tools.node."platforms.linux-arm64"]
+checksum = "sha256:33c37be234ba8bee041961047b19160f4d7d0f164e8e246f78bdd10feff148b3"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-linux-arm64.tar.gz"
+
+[tools.node."platforms.linux-arm64-musl"]
+checksum = "sha256:8254125825a3e5e834bd8a260dab4c8303f720464a741506ec27989b9ba1769b"
+url = "https://unofficial-builds.nodejs.org/download/release/v24.22.1/node-v24.22.1-linux-arm64-musl.tar.gz"
+
+[tools.node."platforms.linux-x64"]
+checksum = "sha256:eb6728e77c576a35162c122c45ccadf224d89ff00abc8dae46cc2897c6002d7c"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-linux-x64.tar.gz"
+
+[tools.node."platforms.linux-x64-baseline"]
+checksum = "sha256:eb6728e77c576a35162c122c45ccadf224d89ff00abc8dae46cc2897c6002d7c"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-linux-x64.tar.gz"
+
+[tools.node."platforms.linux-x64-musl"]
+checksum = "sha256:0a9eddce2d2e8f3addbe94fa46d751325b2d74f7fd1ce63296164d36b6dfc6e5"
+url = "https://unofficial-builds.nodejs.org/download/release/v24.22.1/node-v24.22.1-linux-x64-musl.tar.gz"
+
+[tools.node."platforms.linux-x64-musl-baseline"]
+checksum = "sha256:0a9eddce2d2e8f3addbe94fa46d751325b2d74f7fd1ce63296164d36b6dfc6e5"
+url = "https://unofficial-builds.nodejs.org/download/release/v24.22.1/node-v24.22.1-linux-x64-musl.tar.gz"
+
+[tools.node."platforms.macos-arm64"]
+checksum = "sha256:89c682593d76cd44233fa53b1563264e7de9cbb189cad169135c5b4fadfbc0a7"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-darwin-arm64.tar.gz"
+
+[tools.node."platforms.macos-x64"]
+checksum = "sha256:d132557e7ee2b85af08b0c8c34338e65c6430f2238d01f727728ef42dc83b035"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-darwin-x64.tar.gz"
+
+[tools.node."platforms.macos-x64-baseline"]
+checksum = "sha256:d132557e7ee2b85af08b0c8c34338e65c6430f2238d01f727728ef42dc83b035"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-darwin-x64.tar.gz"
+
+[tools.node."platforms.windows-x64"]
+checksum = "sha256:d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95fa5"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-win-x64.zip"
+
+[tools.node."platforms.windows-x64-baseline"]
+checksum = "sha256:d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95fa5"
+url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-win-x64.zip"
 
 [[tools."npm:@contextlint/cli"]]
 version = "1.1.1"
