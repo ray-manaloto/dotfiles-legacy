@@ -99,7 +99,7 @@ variable "BUILDER_IMAGE" {
 # This is the single SHA literal; Renovate and `mise run p2996-refresh` update it.
 # Changing this value invalidates the BuildKit cache for the clang-builder stage.
 variable "CLANG_P2996_REF" {
-  default = "f17c8d6c7bfef5e02ccadcf33517fd2a53b51b6e"
+  default = "562409c7942690d59ea470762515f88f24b16e23"
 }
 
 // Default tags for local builds; overridden by docker/metadata-action
