@@ -1034,7 +1034,7 @@ description = "Report the updates Renovate would raise, from this working tree (
 # NOTE: a lookup is slow when a `deb` datasource points at Ubuntu's archive (it
 # downloads the whole main,universe Packages index). apt.llvm.org's index is
 # ~13 KB and resolves fast; a full pass over this repo takes ~80s.
-tools.node = "24"
+tools.node = "26"
 run = 'uv run --project python dotfiles-setup renovate-dryrun'
 
 [tasks.renovate-status]
