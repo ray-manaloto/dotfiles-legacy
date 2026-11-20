@@ -48,7 +48,7 @@ file = "schemas/codex-config.json"
 version = "0.154.0"
 source = "https://learn.chatgpt.com/docs/config-schema.json"
 pin_source = "schemas/sources.toml (vendored; no mise [tools] pin)"
-sha256 = "dd3389d01894faf1cbbd61c0257d208b8445d3e2690cd41abc310eff68bfcd1b"
+sha256 = "ef888e0fbf3c04aff84e956c992980f441c43901ea71ee5109b239f8629c827d"
 
 [[schema]]
 tool = "claude-code"
