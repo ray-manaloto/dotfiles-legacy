@@ -421,10 +421,6 @@ provenance = "github-attestations"
 version = "2.3.0"
 backend = "packslip:github.com/jdx/hk"
 specifiers = ["2.3.0"]
-unsupported_platforms = [
-    "macos-x64",
-    "macos-x64-baseline",
-]
 
 [tools.hk."platforms.linux-arm64"]
 checksum = "sha256:d0311080598527289f2d98cb9d4c1ec287ca595542b842ddecd8a6264ef18cf5"
@@ -626,10 +622,6 @@ provenance = "github-attestations"
 version = "1.17.13"
 backend = "aqua:pypa/pipx"
 specifiers = ["1.17.13"]
-unsupported_platforms = [
-    "windows-x64",
-    "windows-x64-baseline",
-]
 
 [tools.pipx."platforms.linux-arm64"]
 checksum = "sha256:a2e0c584d795eb9b16e286e71174b3fc6151b27d68fa4330c6dc17df8981c72f"
